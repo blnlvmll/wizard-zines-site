@@ -1,0 +1,5 @@
+baseurl = "https://nifty-bell-46f562.netlify.com/"
+title = "wizard zines"
+theme = "detox"
+languageCode = "en-us"
+author = "Julia Evans"

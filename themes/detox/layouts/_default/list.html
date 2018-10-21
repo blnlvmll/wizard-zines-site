@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{{ `<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->` | safeHTML }}
+{{ `<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->` | safeHTML }}
+{{ `<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->` | safeHTML }}
+{{ `<!--[if gt IE 8]><!-->` | safeHTML }}<html class="no-js" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#">{{ `<!--<![endif]-->` | safeHTML }}
+
+{{ partial "head.html" . }}
+<body>
+{{ `<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chrome/‎">install Google Chrome</a> to experience this site.</p><![endif]-->` | safeHTML }}
+
+
+{{ partial "header.html" . }}
+<div class="container mx-auto px-8 lg:w-3/5">
+    <div class="mb-2">
+    <p>
+    Hi! I'm Julia (<a href="http://twitter.com/b0rk" class="text-black hover:text-black">@b0rk</a>,
+	<a href="https://jvns.ca" class="text-black hover:text-black">jvns.ca</a>).
+	Here are my programming zines!
+    </p>
+
+
+    <p>
+The ones with black and white covers are free, the ones with colour covers are $10 for personal use.
+There are also corporate rates if you want to buy them for your team at work.
+    </p>
+
+        </div>
+    <div>
+
+
+</div>
+    <div class="flex flex-row flex-wrap pt-8 justify-center">
+        {{ range where .Pages "Type" "zine" }} {{ .Render "li" }} {{ end }}
+    </div>
+</div>
+{{ partial "footer.html" . }}
+{{ partial "google_analytics.html" . }}
+</body>
+</html>

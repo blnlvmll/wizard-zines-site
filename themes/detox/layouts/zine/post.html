@@ -1,0 +1,59 @@
+<article>
+    
+    <h1 class="text-xl md:text-2xl pb-4">{{ .Title }}</h3>
+
+    <div class="text-center pb-4 flex flex-row flex-wrap justify-center">
+        {{ if isset .Params "gumroad" }}
+<div>
+        <a class="text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}">Buy for $10</a>
+</div>
+        {{ end }}
+        {{ if isset .Params "online" }}
+<div class="pr-2">
+        <a class="text-l md:text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.online}}">Read online</a>
+</div>
+        {{ end }}
+        {{ if isset .Params "print" }}
+<div>
+        <a class="text-l md:text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.online}}">Get the print version</a>
+</div>
+        {{ end }}
+    </div>
+
+    <div class="flex flex-row flex-wrap justify-center">
+        <div class="md:w-1/2 md:pr-4">
+            <img src='{{ ((.Resources.GetMatch "cover.*").Resize "500x").RelPermalink }}'>
+        </div>
+        {{ if .Resources.GetMatch "toc.png" }}
+        <div class="md:w-1/2">
+            <a class="outline-none" href='{{ ((.Resources.GetMatch "toc.png").RelPermalink) }}'>
+            <img src='{{ ((.Resources.GetMatch "toc.png").Resize "500x").RelPermalink }}'>
+			</a>  
+        </div>
+        {{ end }}
+    </div>
+
+
+
+    <section class="leading-normal">
+        {{ .Content }}
+    </section>
+
+	{{ if .Resources.GetMatch "samples/*" }}
+    
+    <h3 class="mb-6"> sample pages </h3>
+
+    <div class="flex flex-row flex-wrap justify-center">
+
+		{{ range .Resources.Match "samples/*" }} 
+        <div class="md:w-1/2 mt-4">
+            <a class="outline-none" href='{{.RelPermalink }}'> <img src='{{ (.Resize "500x").RelPermalink }}'> </a>
+        </div>
+        {{ end }} 
+    </div>
+    {{ end }}
+
+
+    <hr>
+
+</article>
