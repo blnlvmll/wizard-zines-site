@@ -1,4 +1,4 @@
-baseurl = "https://wizard-zines.com/"
+baseurl = "https://wizardzines.com/"
 title = "wizard zines"
 theme = "detox"
 languageCode = "en-us"
