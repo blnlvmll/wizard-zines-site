@@ -4,7 +4,7 @@ path: /mailing-list/
 ---
 
 Love these comics? Sign up for the mailing list and you'll get periodic emails with new comics and
-zine announcements! We'll never spam you or sell you email, obviously.
+zine announcements! We'll never spam you or sell your email, obviously.
 
 Here's the signup form:
 <!-- Begin Mailchimp Signup Form -->
