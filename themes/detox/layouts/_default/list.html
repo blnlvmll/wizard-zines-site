@@ -26,6 +26,10 @@
 
     </div>
     <div class="flex flex-row flex-wrap pt-8 justify-center">
+        {{ range where .Pages "Type" "pack" }} {{ .Render "li" }} {{ end }}
+    </div>
+
+    <div class="flex flex-row flex-wrap pt-8 justify-center">
         {{ range where .Pages "Type" "zine" }} {{ .Render "li" }} {{ end }}
     </div>
 </div>
