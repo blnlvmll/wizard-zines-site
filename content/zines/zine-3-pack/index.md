@@ -4,6 +4,7 @@ path: /zine-3-pack/
 type: pack
 date: 2019-01-01
 gumroad: https://gum.co/zine-3-pack
+twitter: true
 ---
 
 Get 3 zines: [Bite Size Linux](https://wizardzines.com/zines/bite-size-linux/), [Bite Size Command

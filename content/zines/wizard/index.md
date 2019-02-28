@@ -4,6 +4,7 @@ path: /so-you-want-to-be-a-wizard/
 type: zine
 online: https://jvns.ca/wizard-zine.pdf
 print: https://jvns.ca/wizard-zine-print.pdf
+twitter: true
 ---
 
 
