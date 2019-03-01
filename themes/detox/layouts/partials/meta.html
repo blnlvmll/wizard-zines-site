@@ -9,13 +9,16 @@
   {{ with .Site.Params.keywords }}
         <meta name="keywords" content="{{ range $index, $element := $.Site.Params.keywords }}{{ if gt $index 0 }}, {{ end }}{{ . | safeHTML }}{{ else }}{{ . | safeHTML }}{{ end }}">
   {{ end }}
+    {{ if isset .Page.Params "twitter" }}
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@b0rk">
         <meta name="twitter:creator" content="@b0rk">
-    {{ if isset .Page.Params "twitter" }}
         <meta name="twitter:title" content='wizard zines: {{.Page.Title}}'>
         <meta name="twitter:image" content="{{((.Resources.GetMatch "cover.*")).Permalink}}">
 	{{ else }}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@b0rk">
+        <meta name="twitter:creator" content="@b0rk">
         <meta name="twitter:title" content='wizard zines!'>
         <meta name="twitter:image" content="https://wizardzines.com/images/wizardzines.png">
 	{{ end }}
