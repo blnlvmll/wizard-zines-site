@@ -4,6 +4,7 @@ path: /bite-size-command-line/
 type: zine
 date: 2018-09-27
 gumroad: https://gum.co/bite-size-command-line
+twitter: true
 ---
 
 Puzzled by ps? Flummoxed by find? Always wondered about awk? The Bite Size

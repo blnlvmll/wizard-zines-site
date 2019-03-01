@@ -4,6 +4,7 @@ path: /tcpdump/
 type: zine
 online: https://jvns.ca/tcpdump-zine.pdf
 print: https://jvns.ca/tcpdump-zine-print.pdf
+twitter: true
 ---
 
 Ever wanted to know how to use tcpdump, but were intimidated by all the command line options? I was too! But then I learned it, and it wasn’t as bad as I thought. In this zine we’ll explain:

@@ -4,6 +4,7 @@ path: /manager-zine/
 type: zine
 date: 2018-10-27
 gumroad: https://gum.co/manager-zine
+twitter: true
 ---
 
 Ever felt confused about what your manager's job is? Don't know how to communicate with them? Want

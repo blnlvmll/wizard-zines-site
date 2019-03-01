@@ -4,6 +4,7 @@ path: /strace/
 type: zine
 online: https://jvns.ca/strace-zine-v3.pdf
 print: https://jvns.ca/strace-zine-v3-print.pdf
+twitter: true
 ---
 
 strace is my favorite program. I think that it doesn’t get enough attention

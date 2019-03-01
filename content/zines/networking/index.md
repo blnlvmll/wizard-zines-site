@@ -4,6 +4,7 @@ path: /networking/
 type: zine
 online: https://jvns.ca/networking-zine.pdf
 print: https://jvns.ca/networking-zine-print.pdf
+twitter: true
 ---
 
 This is a zine about COMPUTER NETWORKING! I spent a very long time learning how

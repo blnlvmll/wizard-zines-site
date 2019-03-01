@@ -4,6 +4,7 @@ path: /bite-size-linux/
 type: zine
 date: 2018-09-28
 gumroad: https://gum.co/bite-size-linux
+twitter: true
 ---
 
 Confused about what a system call is? Heard the term "file descriptor" but not

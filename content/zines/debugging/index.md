@@ -4,6 +4,7 @@ path: /debugging-zine/
 type: zine
 online: https://jvns.ca/debugging-zine.pdf
 print: https://jvns.ca/debugging-zine-print-letter.pdf
+twitter: true
 ---
 
 This is a zine about some of my favorite Linux debugging tools, especially tools that I don’t think

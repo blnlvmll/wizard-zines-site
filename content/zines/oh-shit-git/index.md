@@ -5,6 +5,7 @@ type: zine
 date: 2018-10-28
 toc: https://jvns.ca/images/ohshit-toc.png
 gumroad: https://gum.co/oh-shit-git
+twitter: true
 ---
 
 If you find git confusing, don't worry! You're not alone.

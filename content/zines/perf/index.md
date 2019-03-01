@@ -4,6 +4,7 @@ path: /perf/
 type: zine
 online: https://jvns.ca/perf-zine.pdf
 print: https://jvns.ca/perf-zine-print.pdf
+twitter: true
 ---
 
 Want to get better at profiling & tracing your programs on Linux? perf is a
