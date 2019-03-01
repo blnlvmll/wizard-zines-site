@@ -9,7 +9,7 @@
   {{ with .Site.Params.keywords }}
         <meta name="keywords" content="{{ range $index, $element := $.Site.Params.keywords }}{{ if gt $index 0 }}, {{ end }}{{ . | safeHTML }}{{ else }}{{ . | safeHTML }}{{ end }}">
   {{ end }}
-        <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@b0rk">
         <meta name="twitter:creator" content="@b0rk">
     {{ if isset .Page.Params "twitter" }}
