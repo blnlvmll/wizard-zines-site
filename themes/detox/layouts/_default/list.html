@@ -26,11 +26,19 @@
 
     </div>
     <div class="flex flex-row flex-wrap pt-8 justify-center">
-        {{ range where .Pages "Type" "pack" }} {{ .Render "li" }} {{ end }}
+        {{ range where .Pages "Type" "pack" }} 
+            {{ .Render "li" }} 
+        {{ end }}
     </div>
 
     <div class="flex flex-row flex-wrap pt-8 justify-center">
-        {{ range where .Pages "Type" "zine" }} {{ .Render "li" }} {{ end }}
+        {{ range where .Pages "Type" "zine" }}
+            {{ if isset .Params "ownline" }}
+                {{ .Render "li_ownline" }} 
+            {{ else }}
+                {{ .Render "li" }} 
+            {{ end }}
+        {{ end }}
     </div>
 </div>
 {{ partial "footer.html" . }}
