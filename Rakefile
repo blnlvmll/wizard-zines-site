@@ -32,15 +32,8 @@ end
 desc "Watch the site and regenerate when it changes"
 task :serve do
   puts "Starting to watch source with Hugo and Compass."
-  hugoPid = Process.spawn("hugo server --bind 0.0.0.0")
-  compassPid = Process.spawn("compass watch --css-dir #{static_dir}/stylesheets/")
-
-  trap("INT") {
-    [hugoPid, compassPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
-    exit 0
-  }
-
-  [hugoPid, compassPid].each { |pid| Process.wait(pid) }
+  pid = Process.spawn("hugo server --bind 0.0.0.0")
+  Process.wait(pid)
 end
 
 

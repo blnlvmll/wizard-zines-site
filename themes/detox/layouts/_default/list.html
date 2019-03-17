@@ -29,6 +29,9 @@
         {{ range where .Pages "Type" "pack" }} 
             {{ .Render "li" }} 
         {{ end }}
+        {{ range where .Pages "Type" "pack5" }} 
+            {{ .Render "li" }} 
+        {{ end }}
     </div>
 
     <div class="flex flex-row flex-wrap pt-8 justify-center">

@@ -1,0 +1,47 @@
+<article>
+    
+    <h1 class="text-xl md:text-2xl pb-4">{{ .Title }}</h3>
+
+   <section class="leading-normal">
+        {{ .Content }}
+    </section>
+
+    <div class="text-center pb-4 flex flex-row flex-wrap justify-center">
+        {{ if isset .Params "gumroad" }}
+<div>
+        <a class="text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}">Buy for $47</a>
+</div>
+        {{ end }}
+    </div>
+
+    <div class="flex flex-row flex-wrap justify-center">
+        <div class="md:w-1/2 md:pr-4">
+            <a href="/zines/bite-size-linux">
+            <img src='{{ ((.Resources.GetMatch "bite-size-linux.*").Resize "500x").RelPermalink }}'>
+			</a>
+        </div>
+        <div class="md:w-1/2 md:pr-4">
+            <a href="/zines/bite-size-command-line">
+            <img src='{{ ((.Resources.GetMatch "bite-size-command-line.*").Resize "500x").RelPermalink }}'>
+			</a>
+        </div>
+        <div class="md:w-1/2 md:pr-4">
+            <a href="/zines/bite-size-networking">
+            <img src='{{ ((.Resources.GetMatch "bite-size-networking.*").Resize "500x").RelPermalink }}'>
+			</a>
+        </div>
+        <div class="md:w-1/2 md:pr-4">
+            <a href="/zines/manager">
+            <img src='{{ ((.Resources.GetMatch "manager.*").Resize "500x").RelPermalink }}'>
+			</a>
+        </div>
+        <div class="md:w-1/2 md:pr-4">
+            <a href="/zines/oh-shit-git">
+            <img src='{{ ((.Resources.GetMatch "oh-shit-git.*").Resize "500x").RelPermalink }}'>
+			</a>
+        </div>
+    </div>
+
+    <hr>
+
+</article>
