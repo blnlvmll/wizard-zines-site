@@ -9,17 +9,17 @@
 
 <script src="https://gumroad.com/js/gumroad.js"></script>
 
-        <a class="gumroad-button text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}" target="_blank">Buy for $10</a>
+        <a class="gumroad-button text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}" target="_blank">Buy for $10</a>
 </div>
         {{ end }}
         {{ if isset .Params "online" }}
 <div class="pr-2">
-        <a class="text-l md:text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.online}}">Read online</a>
+        <a class="text-l md:text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.online}}">Read online</a>
 </div>
         {{ end }}
         {{ if isset .Params "print" }}
 <div>
-        <a class="text-l md:text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.print}}">Get the print version</a>
+        <a class="text-l md:text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.print}}">Get the print version</a>
 </div>
         {{ end }}
     </div>

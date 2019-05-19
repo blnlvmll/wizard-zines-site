@@ -12,7 +12,7 @@ too!
 
 
 <div align="center">
-<a class="text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="/networking-tools-poster.pdf">Get the PDF</a>
+<a class="text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="/networking-tools-poster.pdf">Get the PDF</a>
 </div>
 
 <a href="/networking-tools-poster.pdf">
@@ -23,4 +23,4 @@ Want to learn more about these tools but not sure where to start? <a href="/zine
 tools from these list with 1 comic per tool. It's a great way to get started.
 
 <div align="center">
-<a class="text-xl rounded bg-orange pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="/zines/bite-size-networking">Check out Bite Size Networking!</a>
+<a class="text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="/zines/bite-size-networking">Check out Bite Size Networking!</a>
