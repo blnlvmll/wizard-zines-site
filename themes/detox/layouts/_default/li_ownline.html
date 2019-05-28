@@ -1,7 +1,7 @@
 <div class="flex flex-col justify-between w-full md:w-4/5 text-center">
     <div class="pr-4 pb-8">
         <a class="outline-none no-underline text-black hover:text-black text-xl" href="{{.Permalink}}">
-            <h3 class="h-16">{{.Title}} (new)</h3>
+            <h3 class="h-16">{{.Title}}</h3>
             <img src='{{((.Page.Resources.GetMatch "cover.*").Resize "400x").RelPermalink }}'
             width=100% class="md:w-3/5"><br>
         </a>
