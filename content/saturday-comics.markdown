@@ -1,6 +1,6 @@
 ---
 title: "Saturday comics"
-path: /mailing-list/
+path: /saturday-comics/
 ---
 
 Love the comics you see posted [on twitter](https://twitter.com/b0rk/status/981159808832286720)? Want more? 
