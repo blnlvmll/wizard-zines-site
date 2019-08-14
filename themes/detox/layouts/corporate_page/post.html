@@ -1,0 +1,26 @@
+<article>
+    
+    <h1 class="text-xl md:text-2xl pb-4">{{ .Title }}</h3>
+
+<p>These zines can be a great way to teach your team tricky concepts! Customers include <a href="https://twitter.com/jayholler/status/1045393039169019904">twitter</a> and dozens of other awesome companies.</p>
+
+<p>Buying the zine at a corporate rate lets you print out a batch of copies for your coworkers, or give them the PDF. (tip: printing out the zines is easy to do at any print shop
+and it's a way better way to get people the information!)</p>
+
+<p>
+The pricing is based on how many copies of the zine you plan to print / distribute at your company.
+(including electronic copies! :)). Just calculate how many of your coworkers you want to give it to.
+</p>
+
+    {{ range where .Site.Pages "Type" "pack" }} 
+        {{ if isset .Params "gumroad_small" }}
+            {{ .Render "li_corporate" }} 
+        {{ end }}
+    {{ end }}
+    {{ range where .Site.Pages "Type" "zine" }}
+        {{ if isset .Params "gumroad_small" }}
+            {{ .Render "li_corporate" }} 
+        {{ end }}
+    {{ end }}
+
+</article>

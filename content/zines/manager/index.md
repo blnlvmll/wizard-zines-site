@@ -5,6 +5,12 @@ type: zine
 date: 2018-10-27
 gumroad: https://gum.co/manager-zine
 twitter: true
+gumroad_small: https://gumroad.com/l/manager-zine-small-company
+gumroad_small_price: 150
+gumroad_medium: https://gumroad.com/l/manager-zine-medium-company
+gumroad_medium_price: 250
+gumroad_big: https://gumroad.com/l/manager-zine-big-company
+gumroad_big_price: 600
 ---
 
 Ever felt confused about what your manager's job is? Don't know how to communicate with them? Want
