@@ -1,13 +1,13 @@
 ---
 title: "All the zines!"
-path: /zine-5-pack/
+path: /all-the-zines/
 type: pack5
 date: 2019-01-01
-gumroad: https://gum.co/zine-5-pack
+gumroad: https://gum.co/all-the-zines
 twitter: true
 ---
 
-Get 5 zines (all that have been published so far!): 
+Get all 6 zines (all that have been published so far!): 
 
 * [Bite Size Linux!](https://wizardzines.com/zines/bite-size-linux/)
 * [Bite Size Command Line!](https://wizardzines.com/zines/bite-size-command-line/)
