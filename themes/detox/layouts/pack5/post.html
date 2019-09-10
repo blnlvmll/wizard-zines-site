@@ -9,7 +9,8 @@
     <div class="text-center pb-4 flex flex-row flex-wrap justify-center">
         {{ if isset .Params "gumroad" }}
 <div>
-        <a class="text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}">Buy for $47</a>
+        <a class="text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white
+            no-underline leading-loose" href="{{.Params.gumroad}}">Buy for $58</a>
 </div>
         {{ end }}
     </div>
@@ -38,6 +39,11 @@
         <div class="md:w-1/2 md:pr-4">
             <a href="/zines/oh-shit-git">
             <img src='{{ ((.Resources.GetMatch "oh-shit-git.*").Resize "500x").RelPermalink }}'>
+			</a>
+        </div>
+        <div class="md:w-1/2 md:pr-4">
+            <a href="/zines/http">
+            <img src='{{ ((.Resources.GetMatch "http.*").Resize "500x").RelPermalink }}'>
 			</a>
         </div>
     </div>
