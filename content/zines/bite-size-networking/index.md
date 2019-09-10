@@ -6,6 +6,12 @@ date: 2019-03-02
 gumroad: https://gum.co/bite-size-networking
 twitter: true
 ownline: true
+gumroad_small: https://gumroad.com/l/bite-size-networking-small-company
+gumroad_small_price: 150
+gumroad_medium: https://gumroad.com/l/bite-size-networking-medium-company
+gumroad_medium_price: 250
+gumroad_big: https://gumroad.com/l/bite-size-networking-big-company
+gumroad_big_price: 600
 ---
 
 It's Thursday afternoon and your users are reporting SSL errors in production and you don't know why. Or a HTTP header isn't being set correctly and it's breaking the site. Or you just got a notification that your site's SSL certificate is expiring in 2 days. Or you need to update DNS to point to a new server. Or a server suddenly isn't able to connect to a service.  And networking maybe isn't your full time job, but you still need to get the problem fixed.

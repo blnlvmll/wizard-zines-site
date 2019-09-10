@@ -9,7 +9,13 @@
 
 <script src="https://gumroad.com/js/gumroad.js"></script>
 
-        <a class="gumroad-button text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}" target="_blank">Buy for $10</a>
+        <a class="gumroad-button text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="{{.Params.gumroad}}" target="_blank">
+            {{ if isset .Params "price" }}
+            Buy for ${{.Params.Price}}
+            {{else}}
+            Buy for $10
+            {{end}}
+        </a>
 </div>
         {{ end }}
         {{ if isset .Params "online" }}

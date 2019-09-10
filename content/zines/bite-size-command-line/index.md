@@ -5,6 +5,12 @@ type: zine
 date: 2018-09-27
 gumroad: https://gum.co/bite-size-command-line
 twitter: true
+gumroad_small: https://gumroad.com/l/bite-size-command-line-small-company
+gumroad_small_price: 150
+gumroad_medium: https://gumroad.com/l/bite-size-command-line-medium-company
+gumroad_medium_price: 250
+gumroad_big: https://gumroad.com/l/bite-size-command-line-big-company
+gumroad_big_price: 600
 ---
 
 Puzzled by ps? Flummoxed by find? Always wondered about awk? The Bite Size
