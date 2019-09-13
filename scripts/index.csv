@@ -1,0 +1,41 @@
+term, page, zine
+dig, 4, bite-size-networking
+ping, 5, bite-size-networking
+curl, 6, bite-size-networking
+nmap, 7, bite-size-networking
+netcat, 8, bite-size-networking
+socat, 9, bite-size-networking
+tcpdump, 10, bite-size-networking
+tcpdump, 11, bite-size-networking
+tshark, 12, bite-size-networking
+ngrep, 13, bite-size-networking
+openssl, 14, bite-size-networking
+mitmproxy, 15, bite-size-networking
+ssh, 17, bite-size-networking
+ip, 18, bite-size-networking
+ss, 19, bite-size-networking
+netstat, 19, bite-size-networking
+iptables, 20, bite-size-networking
+tc, 21, bite-size-networking
+conntrack, 22, bite-size-networking
+URLs, 5, http
+HTTP headers, 6, http
+HTTP requests, 7, http
+HTTP request methods, 8, http
+HTTP request methods, 9, http
+HTTP request headers, 10, http
+HTTP APIs, 11, http
+HTTP responses, 12, http
+HTTP response headers, 13, http
+HTTP status codes, 14, http
+Cookies, 15, http
+content delivery networks, 16, http
+content delivery networks, 17, http
+HTTP redirects, 18, http
+HTTPS, 20, http
+TLS certificates, 21, http
+HTTPS certificates, 21, http
+Same origin policy, 22, http
+Same origin policy, 23, http
+CORS, 24, http
+Content-Security-Policy, 25, http
