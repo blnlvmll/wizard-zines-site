@@ -39,3 +39,73 @@ Same origin policy, 22, http
 Same origin policy, 23, http
 CORS, 24, http
 Content-Security-Policy, 25, http
+unix permissions, 4, bite-size-linux
+/proc, 5, bite-size-linux
+system calls, 6, bite-size-linux
+signals, 7, bite-size-linux
+file descriptors, 8, bite-size-linux
+pipes, 9, bite-size-linux
+sockets, 10, bite-size-linux
+unix domain sockets, 11, bite-size-linux
+processes, 12, bite-size-linux
+threads, 13, bite-size-linux
+floating point, 14, bite-size-linux
+file buffering, 15, bite-size-linux
+memory allocation, 16, bite-size-linux
+virtual memory, 17, bite-size-linux
+shared libraries, 18, bite-size-linux
+copy on write, 19, bite-size-linux
+page faults, 20, bite-size-linux
+mmap, 21, bite-size-linux
+man page sections, 22, bite-size-linux
+grep, 5, bite-size-command-line
+find, 6, bite-size-command-line
+xargs, 7, bite-size-command-line
+awk, 8, bite-size-command-line
+sed, 9, bite-size-command-line
+bash, 10, bite-size-command-line
+bash, 11, bite-size-command-line
+du, 12, bite-size-command-line
+tar, 13, bite-size-command-line
+ps, 14, bite-size-command-line
+top, 15, bite-size-command-line
+sort, 16, bite-size-command-line
+uniq, 16, bite-size-command-line
+head, 18, bite-size-command-line
+tail, 18, bite-size-command-line
+less, 19, bite-size-command-line
+kill, 20, bite-size-command-line
+cat, 21, bite-size-command-line
+lsof, 22, bite-size-command-line
+tcpdump, 1-12, tcpdump 
+BPF filters, 6, tcpdump
+Wireshark, 7, tcpdump
+dstat, 5, debugging
+strace, 6, debugging
+opensnoop, 7, debugging
+eBPF, 7, debugging
+netcat, 9, debugging
+netstat, 10, debugging
+ngrep, 11, debugging
+tcpdump, 12, debugging
+Wireshark, 13, debugging
+perf, 15-16, debugging
+flamegraph, 17, debugging
+perf, 1-24, perf
+strace, 1-16, strace
+dns, 6-8, networking
+sockets, 9, networking
+TCP, 10-11, networking
+HTTP, 12, networking
+HTTP headers, 13, networking
+Networking layers, 15, networking
+ports, 16, networking
+UDP, 17, networking
+BGP, 19, networking
+CIDR notation, 20, networking
+SSL/TLS, 21, networking
+Wireshark, 22, networking
+1:1s, 6, manager
+promotions, 10-11, manager
+performance reviews, 10-11, manager
+feedback (asking for), 15, manager
