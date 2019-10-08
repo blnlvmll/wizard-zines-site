@@ -4,6 +4,12 @@ path: /all-the-zines/
 type: pack5
 date: 2019-01-01
 gumroad: https://gum.co/all-the-zines
+gumroad_small: https://gumroad.com/l/all-the-zines-small-company
+gumroad_small_price: 550
+gumroad_medium: https://gumroad.com/l/all-the-zines-medium-company
+gumroad_medium_price: 1200
+gumroad_big: https://gumroad.com/l/all-the-zines-big-company
+gumroad_big_price: 2000
 twitter: true
 ---
 

@@ -17,6 +17,11 @@ The pricing is based on how many copies of the zine you plan to print / distribu
             {{ .Render "li_corporate" }} 
         {{ end }}
     {{ end }}
+    {{ range where .Site.Pages "Type" "pack5" }} 
+        {{ if isset .Params "gumroad_small" }}
+            {{ .Render "li_corporate" }} 
+        {{ end }}
+    {{ end }}
     {{ range where .Site.Pages "Type" "zine" }}
         {{ if isset .Params "gumroad_small" }}
             {{ .Render "li_corporate" }} 
