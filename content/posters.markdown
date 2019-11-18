@@ -9,7 +9,7 @@ path: /posters
 <a class="text-xl rounded bg-orange-500 pt-1 pb-1 pr-4 pl-4 text-white hover:text-white no-underline leading-loose" href="/wizard-programmer.pdf">Get the PDF</a>
 </div>
 <p class="pt-4">
-The free <a href="/zines/wizard">So you want to be a wizard</a> zine has more on being a wizard ❤.
+The <a href="/zines/wizard">So you want to be a wizard</a> zine has more on being a wizard ❤.
 </p>
 
 </div>
